@@ -1,0 +1,74 @@
+/* body {
+  background-color: rgb(27 27 27);
+} */
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* height: 100vh; */
+  padding: 80px 20px 20px 20px;
+  /* border: 2px solid blue; */
+  width: 100%;
+}
+.card {
+  background-color: white;
+  width: 360px;
+  height: 95vh;
+  margin: 10px;
+  border-radius: 15px;
+  overflow: hidden;
+  /* border: black 2px solid; */
+}
+.card-image {
+  height: 35vh;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+  /* overflow: hidden; */
+  /* border: 2px solid red; */
+}
+.card-image:hover {
+  transform: scale(1.05);
+  transition: all 1s ease;
+}
+
+.pro-1 {
+  background-image: url("../../assets/svg/projects/fabbag.png");
+}
+.pro-2 {
+  background-image: url("../../assets/svg/projects/technews.png");
+}
+/* .pro-3 {
+  background-image: url("../../assets/svg/projects/espn.png");
+} */
+.card h2 {
+  padding: 10px;
+}
+.card p {
+  padding: 1px 10px 1px 10px;
+  margin: 1px 1px 1px 1px;
+}
+
+.card a {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  display: block;
+  text-align: center;
+  margin: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.card:hover {
+  background-color: rgb(62 62 62);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.45);
+  transition: all 1s ease;
+  box-shadow: 4px 4px 4px 8px #545fc4;
+  /* transition: all 1s ease;
+  transform: scale(1.05); */
+  /* border: 1px solid red; */
+}
