@@ -4,10 +4,7 @@ export const headerData = {
   name: "Rajendra Yadav",
   title: "Web Developer",
   desciption:
-    "There wasn't a bird in the sky, but that was not what caught her attention. It was the clouds. The deep green that isn't the color of clouds, but came with these. She knew what was coming and she hoped she was prepared. ",
+    "“Passion is one great force that unleashes creativity, because if you're passionate about something, then you're more willing to take risks.”",
   image: rajendra,
-  //   image:
-  //     "https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/landingImg.png",
-
   resumePdf: Rajendra_Yadav_Resume,
 };

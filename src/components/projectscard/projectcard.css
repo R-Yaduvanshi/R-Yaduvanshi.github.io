@@ -1,14 +1,8 @@
-/* body {
-  background-color: rgb(27 27 27);
-} */
-
 .container {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  /* height: 100vh; */
   padding: 80px 20px 20px 20px;
-  /* border: 2px solid blue; */
   width: 100%;
 }
 .card {
@@ -18,7 +12,6 @@
   margin: 10px;
   border-radius: 15px;
   overflow: hidden;
-  /* border: black 2px solid; */
 }
 .card-image {
   height: 35vh;
@@ -33,15 +26,6 @@
   transition: all 1s ease;
 }
 
-.pro-1 {
-  background-image: url("../../assets/svg/projects/fabbag.png");
-}
-.pro-2 {
-  background-image: url("../../assets/svg/projects/technews.png");
-}
-/* .pro-3 {
-  background-image: url("../../assets/svg/projects/espn.png");
-} */
 .card h2 {
   padding: 10px;
 }
@@ -68,7 +52,4 @@
   transform: scale(1.45);
   transition: all 1s ease;
   box-shadow: 4px 4px 4px 8px #545fc4;
-  /* transition: all 1s ease;
-  transform: scale(1.05); */
-  /* border: 1px solid red; */
 }
