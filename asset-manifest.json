@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.f1f28aa0.css",
-    "main.js": "/static/js/main.695e74da.js",
+    "main.js": "/static/js/main.412721f2.js",
     "static/js/787.98ca30ee.chunk.js": "/static/js/787.98ca30ee.chunk.js",
+    "static/media/AppleTV.gif": "/static/media/AppleTV.de467c5adb699579c0c7.gif",
+    "static/media/espn.gif": "/static/media/espn.ca85b8fece4bdba3cf8a.gif",
+    "static/media/fabbag.gif": "/static/media/fabbag.73572fb54fcc9b6bc923.gif",
     "static/media/four.svg": "/static/media/four.bd70304d5c1d04da32e60413fdfadfea.svg",
-    "static/media/fabbag.png": "/static/media/fabbag.031d94b77c929ae7c8a7.png",
     "static/media/rajendra.png": "/static/media/rajendra.0b005a236e44a477a858.png",
-    "static/media/espn.png": "/static/media/espn.aa10e9f9ff09142a36e4.png",
     "static/media/placeholder.png": "/static/media/placeholder.3fcbbdcd05f3e458d129.png",
     "static/media/expOrange.svg": "/static/media/expOrange.c3e9732086bcc521548240f2f8db0dcf.svg",
     "static/media/expGreen.svg": "/static/media/expGreen.16b06cc584dc9f60d8200ab5e3366036.svg",
@@ -149,11 +150,11 @@
     "static/media/vuetifyjs.svg": "/static/media/vuetifyjs.3848fcff351a0cbc94e75362594d2b25.svg",
     "static/media/bulma.svg": "/static/media/bulma.12ecb7941234000a2fe38a48cbce30da.svg",
     "main.f1f28aa0.css.map": "/static/css/main.f1f28aa0.css.map",
-    "main.695e74da.js.map": "/static/js/main.695e74da.js.map",
+    "main.412721f2.js.map": "/static/js/main.412721f2.js.map",
     "787.98ca30ee.chunk.js.map": "/static/js/787.98ca30ee.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f1f28aa0.css",
-    "static/js/main.695e74da.js"
+    "static/js/main.412721f2.js"
   ]
 }
