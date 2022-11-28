@@ -3,7 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import "./SingleProject.css";
 
 import React from "react";
-import "../../projectscard/projectcard.css";
+import "../projectcard.css";
 import Fade from "react-reveal/Fade";
 import { FaCode, FaPlay } from "react-icons/fa";
 const SingleProject = ({ id, name, desc, tags, code, demo, image, theme }) => {
@@ -36,58 +36,38 @@ const SingleProject = ({ id, name, desc, tags, code, demo, image, theme }) => {
   return (
     <Fade left>
       <div className="card">
-        <div
-          className="card-image"
-          style={{
-            height: "35vh",
-            marginBottom: "15px",
-            borderRadius: "15px 15px 0 0",
-            overflow: "hidden",
-            // backgroundImage: `url(${image})`,
-          }}
-        >
-          <img src={image} alt="" />
-        </div>
-        <div style={{ height: "30vh" }}>
-          <h2
-            id={name.replace(" ", "-").toLowerCase()}
-            style={{ color: theme.primary }}
-            className="projectname"
-          >
-            {name}
-          </h2>
-          <p>{desc}</p>
-        </div>
+        <div style={{ height: "87%" }}>
+          <div className="card-image">
+            <img src={image} alt="" />
+          </div>
+          <div className="card-description">
+            <h2
+              id={name.replace(" ", "-").toLowerCase()}
+              style={{ color: theme.primary }}
+              className="projectname"
+            >
+              {name}
+            </h2>
+            <p>{desc}</p>
+          </div>
 
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            // border: "2px solid yellow",
-            height: "16vh",
-            // gap: "5px",
-          }}
-        >
-          <p
-            style={{
-              textAlign: "center",
-            }}
-          >
-            Tech Stacks :
-          </p>
-          <p>
-            {tags.map((tag, id) => (
-              <span key={id}>{tag} | </span>
-            ))}
-          </p>
+          <div className="card-techStack">
+            <p
+              style={{
+                textAlign: "center",
+                color: theme.primary,
+              }}
+            >
+              Tech Stacks :
+            </p>
+            <p>
+              {tags.map((tag, id) => (
+                <span key={id}>{tag} | </span>
+              ))}
+            </p>
+          </div>
         </div>
-        <div
-          style={{
-            display: "flex",
-            // border: "2px solid pink",
-            justifyContent: "space-evenly",
-          }}
-        >
+        <div className="card-buttons">
           <a
             href={demo}
             target="_blank"

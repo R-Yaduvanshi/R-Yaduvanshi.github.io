@@ -107,5 +107,33 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
 }
 
-@media only screen and (device-width: 768px) {
+@media (min-width: 1536px) {
+  .container {
+    max-width: 100%;
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+    max-width: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    max-width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 100%;
+  }
+}
+/* @media (min-width: 1068px) {
+  .container {
+    height: 100vh;
+  }
+} */
+@media (min-width: 640px) {
+  .container {
+    max-width: 100%;
+  }
 }

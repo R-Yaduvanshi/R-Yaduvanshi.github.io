@@ -47,6 +47,7 @@ const GithubStatic = () => {
         alt="rajendra"
         // height="50px"
         style={{ marginBottom: "20px" }}
+        className="imgb"
       />
       <Github />
     </div>

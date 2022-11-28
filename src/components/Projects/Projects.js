@@ -7,7 +7,7 @@ import { HiArrowRight } from "react-icons/hi";
 
 import "./Projects.css";
 import SingleProject from "./SingleProject/SingleProject";
-import "../projectscard/projectcard.css";
+import "./projectcard.css";
 
 function Projects() {
   const { theme } = useContext(ThemeContext);
@@ -60,6 +60,7 @@ function Projects() {
               flexWrap: "wrap",
               justifyContent: "center",
               gap: "15px",
+              width: "100%",
             }}
           >
             {projectsData.slice(0, 3).map((projectss) => (
