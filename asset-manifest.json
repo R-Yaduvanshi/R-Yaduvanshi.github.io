@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0faaa5d7.css",
-    "main.js": "/static/js/main.17b85db3.js",
+    "main.js": "/static/js/main.a3fa73ef.js",
     "static/js/787.98ca30ee.chunk.js": "/static/js/787.98ca30ee.chunk.js",
     "static/media/AppleTV.gif": "/static/media/AppleTV.de467c5adb699579c0c7.gif",
     "static/media/espn.gif": "/static/media/espn.ca85b8fece4bdba3cf8a.gif",
@@ -150,11 +150,11 @@
     "static/media/vuetifyjs.svg": "/static/media/vuetifyjs.3848fcff351a0cbc94e75362594d2b25.svg",
     "static/media/bulma.svg": "/static/media/bulma.12ecb7941234000a2fe38a48cbce30da.svg",
     "main.0faaa5d7.css.map": "/static/css/main.0faaa5d7.css.map",
-    "main.17b85db3.js.map": "/static/js/main.17b85db3.js.map",
+    "main.a3fa73ef.js.map": "/static/js/main.a3fa73ef.js.map",
     "787.98ca30ee.chunk.js.map": "/static/js/787.98ca30ee.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0faaa5d7.css",
-    "static/js/main.17b85db3.js"
+    "static/js/main.a3fa73ef.js"
   ]
 }
