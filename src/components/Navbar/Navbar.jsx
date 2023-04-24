@@ -49,10 +49,11 @@ const Navbar = () => {
 
       <ul className="hidden md:flex">
         {links.map(
-          ({ id, link, resume }) => (
+          ({ id, link, resume, className }) => (
             <li
               key={id}
               className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 hover:text-black duration-200"
+              class={className}
             >
               <Link to={link} smooth duration={500} href={resume}>
                 {link}
@@ -61,7 +62,10 @@ const Navbar = () => {
           )
           // console.log("=>", link)
         )}
-        <li className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 hover:text-black duration-200">
+        <li
+          class="nav-link resume"
+          className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 hover:text-black duration-200"
+        >
           <a href={resume} download="Rajendra_Yadav_Resume">
             Resume
           </a>
@@ -77,10 +81,11 @@ const Navbar = () => {
 
       {nav && (
         <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-t from-white to-blue-800 text-white">
-          {links.map(({ id, link, resume }) => (
+          {links.map(({ id, link, resume, className }) => (
             <li
               key={id}
               className="px-4 cursor-pointer capitalize py-6 text-4xl hover:scale-105 hover:text-black"
+              class={className}
             >
               <Link
                 onClick={() => setNav(!nav)}
