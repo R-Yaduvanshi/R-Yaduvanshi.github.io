@@ -45,12 +45,12 @@ function Projects() {
     <>
       {projectsData.length > 0 && (
         <section
+          id="projects"
           className="container"
           name="project"
           style={{
             backgroundColor: theme.secondary,
           }}
-          id="projects"
         >
           <div className="projects--header">
             <h1 style={{ color: theme.primary }}>Projects</h1>
@@ -63,6 +63,7 @@ function Projects() {
               gap: "15px",
               width: "100%",
             }}
+            id="projects"
           >
             {projectsData.slice(0, 3).map((projectss) => (
               <SingleProject
