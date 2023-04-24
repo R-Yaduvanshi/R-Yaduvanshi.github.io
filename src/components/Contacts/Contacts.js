@@ -167,7 +167,7 @@ function Contacts() {
       style={{ backgroundColor: theme.secondary }}
       name="contact"
     >
-      <div className="contacts--container">
+      <div id="contact" className="contacts--container">
         <h1 style={{ color: theme.primary }}>Contacts</h1>
         <div className="contacts-body">
           <div className="contacts-form">
