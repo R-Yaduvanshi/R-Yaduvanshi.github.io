@@ -46,10 +46,6 @@ function Contacts() {
 
     setOpen(false);
   };
-  // console.log("=>>", name);
-  // console.log("=&8>", email);
-  // console.log("=>", message);
-
   const useStyles = makeStyles((t) => ({
     input: {
       border: `4px solid ${theme.primary80}`,
@@ -167,7 +163,7 @@ function Contacts() {
   return (
     <div
       className="contacts"
-      id="contacts"
+      id="contact contacts"
       style={{ backgroundColor: theme.secondary }}
       name="contact"
     >
@@ -280,13 +276,17 @@ function Contacts() {
               <div className={classes.detailsIcon}>
                 <FiAtSign />
               </div>
-              <p style={{ color: theme.tertiary }}>{contactsData.email}</p>
+              <p style={{ color: theme.tertiary }} id="contact-email">
+                {contactsData.email}
+              </p>
             </a>
             <a href={`tel:${contactsData.phone}`} className="personal-details">
               <div className={classes.detailsIcon}>
                 <FiPhone />
               </div>
-              <p style={{ color: theme.tertiary }}>{contactsData.phone}</p>
+              <p style={{ color: theme.tertiary }} id="contact-phone">
+                {contactsData.phone}
+              </p>
             </a>
             <div className="personal-details">
               <div className={classes.detailsIcon}>
@@ -312,6 +312,7 @@ function Contacts() {
                   target="_blank"
                   rel="noreferrer"
                   className={classes.socialIcon}
+                  id="contact-github"
                 >
                   <FaGithub aria-label="GitHub" />
                 </a>
@@ -322,6 +323,7 @@ function Contacts() {
                   target="_blank"
                   rel="noreferrer"
                   className={classes.socialIcon}
+                  id="contact-linkedin"
                 >
                   <FaLinkedinIn aria-label="LinkedIn" />
                 </a>

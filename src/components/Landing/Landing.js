@@ -68,7 +68,7 @@ function Landing() {
   const classes = useStyles();
 
   return (
-    <div className="landing" name="home">
+    <div className="landing" name="home" id="home">
       <div className="landing--container">
         <div
           className="landing--container-left"
@@ -154,12 +154,10 @@ function Landing() {
                   typeSpeed={80}
                   deleteSpeed={70}
                   delaySpeed={1000}
-                  //   onLoopDone={handleDone}
-                  //   onType={handleType}
                 />
               </span>
             </h6>
-            <h1>{headerData.name}</h1>
+            <h1 id="user-detail-name">{headerData.name}</h1>
             <p>{headerData.desciption}</p>
 
             <div className="lcr-buttonContainer">
