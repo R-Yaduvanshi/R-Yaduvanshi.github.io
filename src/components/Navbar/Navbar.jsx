@@ -3,7 +3,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 import { headerData } from "../../data/headerData";
 import resume from "../../assets/pdf/Rajendra_Yadav_Resume.pdf";
-const MyNavbar = () => {
+const Navbar = () => {
   const [nav, setNav] = useState(false);
 
   const links = [
@@ -40,11 +40,11 @@ const MyNavbar = () => {
 
   return (
     <div
-      className="flex justify-between items-center w-full h-20 px-2 text-white bg-gradient-to-l from-white to-blue-800 sticky top-0 z-50"
       id="nav-menu"
+      className="flex justify-between items-center w-full h-20 px-2 text-white bg-gradient-to-l from-white to-blue-800 sticky top-0 z-50"
     >
       <div>
-        <h1 className="text-5xl font-signature ml-2"></h1>
+        <h1 className="text-5xl font-signature ml-2">Rajendra</h1>
       </div>
 
       <ul className="hidden md:flex">
@@ -109,4 +109,4 @@ const MyNavbar = () => {
   );
 };
 
-export default MyNavbar;
+export default Navbar;
