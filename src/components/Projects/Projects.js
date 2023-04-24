@@ -63,7 +63,6 @@ function Projects() {
               gap: "15px",
               width: "100%",
             }}
-            id="projects"
           >
             {projectsData.slice(0, 3).map((projectss) => (
               <SingleProject
