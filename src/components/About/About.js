@@ -8,7 +8,7 @@ function About() {
   const { theme } = useContext(ThemeContext);
   return (
     <div
-      className="about about section"
+      className="abouts abouts section"
       id="about"
       name="about"
       style={{ backgroundColor: theme.secondary }}
