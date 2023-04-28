@@ -1,3 +1,4 @@
+/*
 .projects {
   display: flex;
   flex-direction: column;
@@ -5,10 +6,10 @@
   justify-content: flex-start;
   min-height: 100vh;
   overflow-x: hidden;
-  /* padding: 2rem; */
+ padding: 2rem; // isko phir comment out kar dena
   padding: 5rem 1rem 1rem 1rem;
 }
-
+  */
 .projects--header {
   display: flex;
   align-items: center;
