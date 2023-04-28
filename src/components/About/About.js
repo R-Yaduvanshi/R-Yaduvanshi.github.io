@@ -10,6 +10,7 @@ function About() {
     <div
       className="abouts abouts section"
       id="about"
+      class="about section"
       name="about"
       style={{ backgroundColor: theme.secondary }}
     >
