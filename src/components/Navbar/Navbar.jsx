@@ -62,11 +62,12 @@ const Navbar = () => {
           )
           // console.log("=>", link)
         )}
-        <li
-          class="nav-link resume"
-          className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 hover:text-black duration-200"
-        >
-          <a href={resume} download="Rajendra_Yadav_Resume">
+        <li className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 hover:text-black duration-200">
+          <a
+            class="nav-link resume"
+            href={resume}
+            download="Rajendra_Yadav_Resume"
+          >
             Resume
           </a>
         </li>
