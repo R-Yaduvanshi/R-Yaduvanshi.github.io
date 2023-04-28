@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.adad0a71.css",
-    "main.js": "/static/js/main.693757a5.js",
+    "main.css": "/static/css/main.7c6668ed.css",
+    "main.js": "/static/js/main.e9fe81d7.js",
     "static/js/787.98ca30ee.chunk.js": "/static/js/787.98ca30ee.chunk.js",
     "static/media/AppleTV.gif": "/static/media/AppleTV.de467c5adb699579c0c7.gif",
     "static/media/espn.gif": "/static/media/espn.ca85b8fece4bdba3cf8a.gif",
@@ -149,12 +149,12 @@
     "static/media/vue.svg": "/static/media/vue.5f5d16894e0a3def9502734973eb8eb5.svg",
     "static/media/vuetifyjs.svg": "/static/media/vuetifyjs.3848fcff351a0cbc94e75362594d2b25.svg",
     "static/media/bulma.svg": "/static/media/bulma.12ecb7941234000a2fe38a48cbce30da.svg",
-    "main.adad0a71.css.map": "/static/css/main.adad0a71.css.map",
-    "main.693757a5.js.map": "/static/js/main.693757a5.js.map",
+    "main.7c6668ed.css.map": "/static/css/main.7c6668ed.css.map",
+    "main.e9fe81d7.js.map": "/static/js/main.e9fe81d7.js.map",
     "787.98ca30ee.chunk.js.map": "/static/js/787.98ca30ee.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.adad0a71.css",
-    "static/js/main.693757a5.js"
+    "static/css/main.7c6668ed.css",
+    "static/js/main.e9fe81d7.js"
   ]
 }
