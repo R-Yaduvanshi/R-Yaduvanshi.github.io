@@ -35,7 +35,7 @@ const SingleProject = ({ id, name, desc, tags, code, demo, image, theme }) => {
   const classes = useStyles();
   return (
     <Fade left>
-      <div className="card" id="projects">
+      <div className="card">
         <div style={{ height: "87%" }}>
           <div className="card-image">
             <img src={image} alt="" />
