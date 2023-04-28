@@ -35,7 +35,7 @@ const SingleProject = ({ id, name, desc, tags, code, demo, image, theme }) => {
   const classes = useStyles();
   return (
     <Fade left>
-      <div className="card">
+      <div className="card" class="project-card">
         <div style={{ height: "87%" }}>
           <div className="card-image">
             <img src={image} alt="" />
@@ -45,13 +45,14 @@ const SingleProject = ({ id, name, desc, tags, code, demo, image, theme }) => {
               id={name.replace(" ", "-").toLowerCase()}
               style={{ color: theme.primary }}
               className="projectname"
+              class="project-title"
             >
               {name}
             </h2>
-            <p>{desc}</p>
+            <p class="project-description">{desc}</p>
           </div>
 
-          <div className="card-techStack">
+          <div className="card-techStack" class="project-tech-stack">
             <p
               style={{
                 textAlign: "center",
@@ -77,6 +78,7 @@ const SingleProject = ({ id, name, desc, tags, code, demo, image, theme }) => {
               .replace(" ", "-")
               .toLowerCase()}-demo`}
             title="See Demo"
+            class="project-deployed-link"
           >
             <FaPlay
               id={`${name.replace(" ", "-").toLowerCase()}-demo`}
@@ -93,6 +95,7 @@ const SingleProject = ({ id, name, desc, tags, code, demo, image, theme }) => {
               .replace(" ", "-")
               .toLowerCase()}-code`}
             title="See Codebase"
+            class="project-github-link"
           >
             <FaCode
               id={`${name.replace(" ", "-").toLowerCase()}-code`}
