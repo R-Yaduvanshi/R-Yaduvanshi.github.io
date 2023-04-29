@@ -67,7 +67,7 @@ const Navbar = () => {
             download="Rajendra_Yadav_Resume"
             class="nav-link resume"
           >
-            Resume
+            <button id="resume-button-1">Resume</button>
           </a>
         </li>
       </ul>

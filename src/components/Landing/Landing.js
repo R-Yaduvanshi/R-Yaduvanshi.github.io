@@ -125,7 +125,8 @@ function Landing() {
         <img
           src={headerData.image}
           alt=""
-          className="landing--img"
+          // className="landing--img"
+          className="home-img"
           style={{
             opacity: `${drawerOpen ? "0" : "1"}`,
             borderColor: theme.secondary,
@@ -168,7 +169,9 @@ function Landing() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <Button className={classes.resumeBtn}>Resume</Button>
+                  <Button className={classes.resumeBtn} id="resume-button-2">
+                    Resume
+                  </Button>
                 </a>
               )}
               <NavLink to="/#contacts" smooth={true} spy="true" duration={2000}>
