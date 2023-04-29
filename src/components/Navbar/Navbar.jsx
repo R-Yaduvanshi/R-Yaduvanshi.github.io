@@ -65,7 +65,7 @@ const Navbar = () => {
           <a
             href={resume}
             download="Rajendra_Yadav_Resume"
-            class="nav-link resume"
+            className="nav-link resume"
           >
             <button id="resume-button-1">Resume</button>
           </a>
