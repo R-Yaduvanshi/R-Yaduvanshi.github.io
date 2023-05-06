@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c2900d1f.css",
-    "main.js": "/static/js/main.5e96a5fd.js",
+    "main.js": "/static/js/main.0cb75b74.js",
     "static/js/787.98ca30ee.chunk.js": "/static/js/787.98ca30ee.chunk.js",
     "static/media/AppleTV.gif": "/static/media/AppleTV.de467c5adb699579c0c7.gif",
     "static/media/espn.gif": "/static/media/espn.ca85b8fece4bdba3cf8a.gif",
@@ -88,9 +88,9 @@
     "static/media/graphql.svg": "/static/media/graphql.9e11f395a1393d1d0db05dbb0bb5c1ac.svg",
     "static/media/svelte.svg": "/static/media/svelte.47c3575754ecc861ae8a2f8df520400b.svg",
     "static/media/microsoftoffice.svg": "/static/media/microsoftoffice.75a83b98c378ee32b3df5bb5e22e6f0c.svg",
-    "index.html": "/index.html",
     "static/media/csharp.svg": "/static/media/csharp.c7c6fad1ff0dfa61c18bb4e836208d29.svg",
     "static/media/java.svg": "/static/media/java.e9ccff93b0aa1395d35e7c0ba529ac54.svg",
+    "index.html": "/index.html",
     "static/media/azure.svg": "/static/media/azure.4993a0d897dbae9a6bf8ffa7decf0e7f.svg",
     "static/media/matlab.svg": "/static/media/matlab.98ad4951a611278e7e5b21109b9798b3.svg",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -150,11 +150,11 @@
     "static/media/vuetifyjs.svg": "/static/media/vuetifyjs.3848fcff351a0cbc94e75362594d2b25.svg",
     "static/media/bulma.svg": "/static/media/bulma.12ecb7941234000a2fe38a48cbce30da.svg",
     "main.c2900d1f.css.map": "/static/css/main.c2900d1f.css.map",
-    "main.5e96a5fd.js.map": "/static/js/main.5e96a5fd.js.map",
+    "main.0cb75b74.js.map": "/static/js/main.0cb75b74.js.map",
     "787.98ca30ee.chunk.js.map": "/static/js/787.98ca30ee.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c2900d1f.css",
-    "static/js/main.5e96a5fd.js"
+    "static/js/main.0cb75b74.js"
   ]
 }
