@@ -64,7 +64,7 @@ function Projects() {
               width: "100%",
             }}
           >
-            {projectsData.slice(0, 3).map((projectss) => (
+            {projectsData.slice(0, 6).map((projectss) => (
               <SingleProject
                 theme={theme}
                 key={projectss.id}
