@@ -73,7 +73,7 @@ const Navbar = () => {
             id="resume-button-1"
             onClick={() => {
               fileDownload(resume, "Rajendra_Yadav_Resume.pdf");
-              window.open(resume, "_blank");
+              // window.open(resume, "_blank");
             }}
           >
             Resume
