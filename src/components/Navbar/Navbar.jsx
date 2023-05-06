@@ -3,6 +3,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 import resume from "../../assets/pdf/Rajendra_Yadav_Resume.pdf";
 import "./navbar.css";
+import fileDownload from "react-file-download";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
 
@@ -62,13 +63,22 @@ const Navbar = () => {
           // console.log("=>", link)
         )}
         <li className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 hover:text-black duration-200">
-          <a
+          {/* <a
             href={resume}
             download="Rajendra_Yadav_Resume"
             className="nav-link resume"
+          > */}
+          <button
+            className="nav-link resume"
+            id="resume-button-1"
+            onClick={() => {
+              fileDownload(resume, "Rajendra_Yadav_Resume.pdf");
+              window.open(resume, "_blank");
+            }}
           >
-            <button id="resume-button-1">Resume</button>
-          </a>
+            Resume
+          </button>
+          {/* </a> */}
         </li>
       </ul>
 
