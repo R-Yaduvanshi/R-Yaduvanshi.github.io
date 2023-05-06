@@ -7,6 +7,7 @@ import "./Landing.css";
 import { ThemeContext } from "../../contexts/ThemeContext";
 import { headerData } from "../../data/headerData";
 import { socialsData } from "../../data/socialsData";
+import fileDownload from "react-file-download";
 
 import {
   FaTwitter,
@@ -163,16 +164,19 @@ function Landing() {
 
             <div className="lcr-buttonContainer">
               {headerData.resumePdf && (
-                <a
-                  href={headerData.resumePdf}
-                  download="Rajendra_Yadav_Resume"
-                  target="_blank"
-                  rel="noreferrer"
+                <Button
+                  className={classes.resumeBtn}
+                  id="resume-button-2"
+                  onClick={() => {
+                    fileDownload(
+                      headerData.resumePdf,
+                      "Rajendra_Yadav_Resume.pdf"
+                    );
+                    window.open(headerData.resumePdf, "_blank");
+                  }}
                 >
-                  <Button className={classes.resumeBtn} id="resume-button-2">
-                    Resume
-                  </Button>
-                </a>
+                  Resume
+                </Button>
               )}
               <NavLink to="/#contacts" smooth={true} spy="true" duration={2000}>
                 <Button className={classes.contactBtn}>Contact</Button>
