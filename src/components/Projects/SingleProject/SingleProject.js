@@ -35,7 +35,7 @@ const SingleProject = ({ id, name, desc, tags, code, demo, image, theme }) => {
   const classes = useStyles();
   return (
     <Fade left>
-      <div className="card">
+      <div className="project-card">
         <div style={{ height: "87%" }}>
           <div className="card-image">
             <img src={image} alt="" />
@@ -44,11 +44,11 @@ const SingleProject = ({ id, name, desc, tags, code, demo, image, theme }) => {
             <h2
               id={name.replace(" ", "-").toLowerCase()}
               style={{ color: theme.primary }}
-              className="projectname"
+              className="project-title"
             >
               {name}
             </h2>
-            <p>{desc}</p>
+            <p className="project-description">{desc}</p>
           </div>
 
           <div className="card-techStack">
@@ -57,6 +57,7 @@ const SingleProject = ({ id, name, desc, tags, code, demo, image, theme }) => {
                 textAlign: "center",
                 color: theme.primary,
               }}
+              className="project-tech-stack"
             >
               Tech Stacks :
             </p>
@@ -77,6 +78,7 @@ const SingleProject = ({ id, name, desc, tags, code, demo, image, theme }) => {
               .replace(" ", "-")
               .toLowerCase()}-demo`}
             title="See Demo"
+            class="project-deployed-link"
           >
             <FaPlay
               id={`${name.replace(" ", "-").toLowerCase()}-demo`}
@@ -89,6 +91,7 @@ const SingleProject = ({ id, name, desc, tags, code, demo, image, theme }) => {
             target="_blank"
             rel="noreferrer"
             className={classes.iconBtn}
+            class="project-github-link"
             aria-labelledby={`${name.replace(" ", "-").toLowerCase()} ${name
               .replace(" ", "-")
               .toLowerCase()}-code`}

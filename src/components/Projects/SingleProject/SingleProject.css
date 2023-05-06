@@ -11,7 +11,6 @@
   position: relative;
   cursor: pointer;
   overflow: hidden;
-  /* border: 2px solid red; */
 }
 
 .projectContent {
@@ -23,7 +22,7 @@
   height: 100%;
 }
 
-.projectname {
+.project-title {
   font-family: var(--primaryFont);
   font-style: normal;
   font-weight: 600;
