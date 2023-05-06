@@ -8,6 +8,7 @@ function About() {
   const { theme } = useContext(ThemeContext);
   return (
     <div
+      id="about"
       className="abouts sections"
       name="about"
       style={{ backgroundColor: theme.secondary }}
@@ -27,7 +28,7 @@ function About() {
         ></div>
       </div>
 
-      <div id="about" className="about-body">
+      <div className="about-body">
         <div className="about-description">
           <h2 style={{ color: theme.primary }}>{aboutData.title}</h2>
           <p style={{ color: theme.tertiary80 }}>
