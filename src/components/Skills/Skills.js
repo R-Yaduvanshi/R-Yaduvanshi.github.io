@@ -29,7 +29,7 @@ function Skills() {
           <div className="skill--scroll">
             {skillsData.map((skill, id) => (
               <FadeInSection key={id}>
-                <div className="skill-card" key={id} style={skillBoxStyle}>
+                <div className="skills-card" key={id} style={skillBoxStyle}>
                   <img
                     className="skills-card-img"
                     src={skillsImage(skill)}
