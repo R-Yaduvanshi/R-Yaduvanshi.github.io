@@ -172,7 +172,7 @@ function Landing() {
                       headerData.resumePdf,
                       "Rajendra_Yadav_Resume.pdf"
                     );
-                    window.open(headerData.resumePdf, "_blank");
+                    // window.open(headerData.resumePdf, "_blank");
                   }}
                 >
                   Resume
