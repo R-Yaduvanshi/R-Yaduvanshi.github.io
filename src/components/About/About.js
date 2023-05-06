@@ -9,7 +9,7 @@ function About() {
   return (
     <div
       id="about"
-      className="abouts sections"
+      className="about section"
       name="about"
       style={{ backgroundColor: theme.secondary }}
     >

@@ -1,9 +1,9 @@
-.abouts {
+.about {
   min-height: 100vh;
   position: relative;
 }
 
-.abouts .line-styling {
+.about .line-styling {
   position: absolute;
   top: 50px;
   left: 50%;
@@ -16,12 +16,12 @@
   justify-content: space-between;
 }
 
-.abouts .line-styling .style-circle {
+.about .line-styling .style-circle {
   width: 10px;
   height: 10px;
   border-radius: 50%;
 }
-.abouts .line-styling .style-line {
+.about .line-styling .style-line {
   width: 95%;
   height: 5px;
   border-radius: 10px;
@@ -82,14 +82,14 @@
   }
 }
 @media (max-width: 1024px) {
-  .abouts {
+  .about {
     display: flex;
     align-items: center;
   }
 }
 
 @media screen and (max-width: 992px) {
-  .abouts .line-styling {
+  .about .line-styling {
     top: 20px;
   }
 
@@ -124,7 +124,7 @@
 }
 
 @media screen and (max-width: 800px) {
-  .abouts .line-styling .style-circle {
+  .about .line-styling .style-circle {
     width: 8px;
     height: 8px;
     border-radius: 50%;
@@ -140,7 +140,7 @@
     height: 5px;
     border-radius: 50%;
   }
-  .abouts .line-styling .style-line {
+  .about .line-styling .style-line {
     width: 93%;
     height: 3px;
     border-radius: 10px;
