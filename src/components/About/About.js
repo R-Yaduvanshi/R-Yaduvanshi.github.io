@@ -7,11 +7,7 @@ import { aboutData } from "../../data/aboutData";
 function About() {
   const { theme } = useContext(ThemeContext);
   return (
-    <div
-      className="abouts sections"
-      name="about"
-      style={{ backgroundColor: theme.secondary }}
-    >
+    <div name="about" style={{ backgroundColor: theme.secondary }}>
       <div className="line-styling">
         <div
           className="style-circle"
@@ -27,7 +23,7 @@ function About() {
         ></div>
       </div>
 
-      <div id="about" className="about-body">
+      <div id="about" className="about section">
         <div className="about-description">
           <h2 style={{ color: theme.primary }}>{aboutData.title}</h2>
           <p style={{ color: theme.tertiary80 }}>

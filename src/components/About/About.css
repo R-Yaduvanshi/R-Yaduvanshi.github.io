@@ -27,7 +27,7 @@
   border-radius: 10px;
 }
 
-.about-body {
+.about {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -93,7 +93,7 @@
     top: 20px;
   }
 
-  .about-body {
+  .about {
     padding-top: 2rem;
     display: flex;
     flex-direction: column-reverse;

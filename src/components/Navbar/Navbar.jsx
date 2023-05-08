@@ -55,7 +55,7 @@ const Navbar = () => {
               key={id}
               className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 hover:text-black duration-200"
             >
-              <Link to={link} smooth duration={500} className={className}>
+              <Link to={link} smooth duration={500} class={className}>
                 {link}
               </Link>
             </li>
